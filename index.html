@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/81dd8fec27.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="header">
         <nav>
             <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
 
-                <div class="nav-link">
+                <div class="nav-link" id="navlinks">
+                    <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
                     <ul>
-                        <li><a href="">MODELS</a></li>
+                        <li><a href="#campus1">MODELS</a></li>
                         <li><a href="">CUSTOM SOLUTIONS</a></li>
-                        <li><a href="">MODELS</a></li>
                         <li><a href="">OWNERSHIP</a></li>
                         <li><a href="">MOTORSPORT</a></li>
                         <li><a href="">DEALERSHIPS</a></li>
@@ -28,16 +29,188 @@
                         <li><a href="">STORE</a></li>
                     </ul>
                 </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
         </nav>
     
     <div class="text-box">
         <h3>AVENTADOR LP 780-4</h3>
         <h1>FOR BAR RAISERS <br> ONLY</h1>
-        <a href="">></a>
+        <a href="" class="hero-btn">&#10148;</a>
     </div>
     </section>
 
+<!-- PHOTOE -->
+
+    <section class="photos">
+
+        <h1>LAMBORGHINI WORLD</h1>
+        <h3>TAKE ALL YOUR SOULS TO DRIVE</h3>
+        <p>Explore the Models</p>
     
+    
+    <div class="row">
+        <div class="photos-col">
+            <img src="/images/hurric.jpg" alt="">
+                <div class="layers">
+                    <h3>HURACÁN</h3>
+                </div>
+        </div>
+         
+        <a href="#Avent"><div class="photos-col">
+                    <img src="/images/avent.jpg" alt="">
+                        <div class="layers">
+                            <h3>AVENTADOR</h3>
+                        </div>    </a>
+                </div>
+        
+    
+                <div class="photos-col">
+                    <img src="/images/urus.jpg" alt="">
+                        <div class="layers">
+                            <h3>URUS</h3>
+                        </div>
+                 </div>
+    
+    </section>
+
+    <!-- MODELS -->
+
+<section class="campus" id="campus1">
+
+    <h3>LAMBORGHINI</h3>
+    <h1>MODELS</h1>
+    <p>Fuel consumption and emission values of all vehicles promoted on this page*; Fuel consumption combined: 19,5-12,7 l/100km (WLTP); CO2-emissions combined: 448-320 g/km (WLTP)</p>
+
+
+    <div class="row">
+
+        <div class="campus-col">
+            <h3>HURACÁN</h3>
+                <p>From our past, we've learned perfection. This is how the first model of the Lamborghini Huracán was born. More performance, more control, more innovation. The Huracán is equipped with a powerful V10 engine and the latest technologies to perform at its absolute best. Engineered to guarantee the best performance and control under any driving condition, it's easy to take to the limit, not to mention extremely fun, thanks to technology like the Lamborghini Doppia Frizione (LDF) dual clutch gearbox and the electronically-controlled four-wheel drive.</p>
+        </div>
+        <div class="campus-col" id="Avent">
+            <h3>AVENTADOR</h3>
+                <p>The Aventador has been created to anticipate the future, as demonstrated by the use of innovative technology, including a V12 engine and the extensive use of carbon fiber.
+                    The authentic design masterpieces together stark dynamism with aggression to produce a cutting edge carbon fiber monocoque. The interior of the Aventador combines high-level technology and luxury equipment with premium-quality materials, skilfully crafted with the expertise characteristic of the finest Italian traditions. A supercar family that has already become a legend in its own right.</p>
+        </div>
+  
+  
+        <div class="campus-col">
+            <h3>URUS</h3>
+                <p>Lamborghini Urus is the world’s first Super Sport Utility Vehicle, in which luxury, sportiness and performance meet comfort and versatility. It offers best-in-class driving dynamics, alongside its unmistakable elegance of design. Urus embodies the characteristics of multiple souls: sporty, elegant and off-road, and has a suitability for everyday driving in a range of environments. With its surprisingly distinct engine sound, combined with high performance, Lamborghini Urus is anything but typical.</p>
+        </div>
+    </div>
+</section>
+
+<!-- locator -->
+
+<section class="locator">
+
+    <div class="text-box1">
+        <h3>DEALER LOCATOR</h3>
+        <h1>FIND YOUR COUNTRY <br>DEALER</h1>
+        <a href="" class="hero-btn">&#10148;</a>
+    </div>
+
+</section>
+
+<section class="news">
+            <h3>NEWS</h3>
+            <h1>LAMBORGHINI WORLD</h1>
+
+    <div class="row1">
+            <div class="news-col">
+                <img src="/images/123.jpg" alt="">
+           
+             <div class="news01">  
+                <div class="news0101">
+                    <h4>22 September 2022</h4>
+                    <h2>LAMBORGHINI MURCIÉLAGO: THE FIRST V12 ENGINE OF THE NEW MILLENNIUM</h2>
+                    <p>In September 2001 at the Frankfurt Motor Show, Automobili Lamborghini unveiled the Murciélago, the first Lamborghini car of the 21st century equipped with the legendary V12 engine that for almost 60 years of history had equipped the brand’s most iconic models.</p>
+                </div>
+                     <div class="btn">
+                        <a href="">Read More..</a>
+                     </div>
+            </div> 
+            </div>
+    
+    </div>
+
+    <div class="row2">
+        <div class="news0201">
+            <img src="/images/news02.jpg" alt="">
+        </div>
+
+        <div class="news02">  
+            <div class="news0202">
+                <p>21 SEPTEMBER 2022</p>
+                <h2>BEYOND THE CONCRETE 2</h2>
+            </div>
+                 <div class="btn">
+                    <a href="">Read More..</a>
+                 </div>
+            </div> 
+    </div>
+
+    <div class="row2">
+        <div class="news0201">
+            <img src="/images/345.jpg" alt="">
+        </div>
+
+        <div class="news02">  
+            <div class="news0202">
+                <p>20 SEPTEMBER 2022</p>
+                <h2>SPEED QUESTIONING INSPIRED <br>BY URUS PERFORMANTE<br> WITH MITJA BORKERT</h2>
+            </div>
+                 <div class="btn">
+                    <a href="">Read More..</a>
+                 </div>
+        </div> 
+    </div>
+
+    <div class="Button1">
+        <a href="">SEE ALL</a>
+    </div>
+    
+</section>
+
+<section class="footer">
+
+     <div class="foot-links">
+        <ul>
+            <li><a href="">COMPANY</a></li>
+            <li><a href="">CONTACT US</a></li>
+            <li><a href="">CAREERS</a></li>
+            <li><a href="">NEWSLETTERS</a></li>
+        </ul>
+    </div>
+
+    <div class="icons">
+
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+
+    </div>
+
+    </section>
+
+    <p class="note"> The consumption and emissions values in the website refer to your geographical IP. This value might be unrealistic if you navigate using VPN or if the position of your Internet provider is imprecise. If you believe you are incorrectly geolocalized, contact your dealer to get <br>valid consumption and emissions information in your area.</p>
+
+<script>
+
+    var navlinks = document.getElementById("navlinks")
+
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+    }
+
+</script>
     
 </body>
 </html>
